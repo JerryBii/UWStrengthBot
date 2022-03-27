@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+Scripts
 build/
 develop-eggs/
 dist/
@@ -102,10 +103,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-./pyvenv.cfg
-./Scripts
-../.idea
-./.env
+.env
 .venv
 env/
 venv/
@@ -130,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#secret files
+database/uw-strength-bot-user-info-firebase-adminsdk.json
+pyvenv.cfg
